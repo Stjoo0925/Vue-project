@@ -1,4 +1,4 @@
-# project01
+# vue-test
 
 ## Project setup
 ```
