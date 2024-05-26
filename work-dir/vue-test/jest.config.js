@@ -12,6 +12,7 @@ module.exports = {
     "^.+\\.vue$": "@vue/vue3-jest",
   },
   testEnvironment: 'jest-environment-jsdom',
+  
   testEnvironmentOptions: {
     customExportConditions: ["node", "node-addons"],
  }, // Vue가 찾아지지 않는 경우 추가해볼것
