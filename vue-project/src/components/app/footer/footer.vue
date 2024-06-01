@@ -1,16 +1,13 @@
 <script setup>
 
-
 </script>
 
 <template>
- 
+
 
 
 </template>
 
 <style scoped>
-
-@import url('../src/assets/reset.css');
 
 </style>
