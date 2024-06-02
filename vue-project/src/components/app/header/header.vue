@@ -38,9 +38,9 @@ function updateVisibility() {
 </template>
 
 <style scoped>
-@import url('../../../assets/reset.css');
-@import url('../../../assets/font.css');
-@import url('../../../assets/header.css');
+@import url('@/assets/reset.css');
+@import url('@/assets/font.css');
+@import url('@/assets/header.css');
 
 .menu-button-container {
   display: none;

@@ -9,7 +9,6 @@ const props = defineProps({
 <template>
   <div v-if="isSidebarVisible" class="sidebar">
     <ul>
-      <li>Home</li>
       <li>AdoutMe</li>
       <li>TechSkills</li>
       <li>Portfolio</li>
@@ -19,7 +18,7 @@ const props = defineProps({
 </template>
 
 <style scoped>
-@import url('../../../../assets/reset.css');
-@import url('../../../../assets/font.css');
-@import url('../../../../assets/header.css');
+@import url('@/assets/reset.css');
+@import url('@/assets/font.css');
+@import url('@/assets/header.css');
 </style>

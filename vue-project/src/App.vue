@@ -1,26 +1,25 @@
 <script setup>
 import Header from './components/app/header/header.vue';
-
+import Footer from './components/app/footer/footer.vue';
+import TopButton from './components/app/top-button.vue';
 </script>
 
 <template>
-    <header>
+    <div>
         <Header/>
-    </header>
+    </div>
 
-    <article>
+    <div>
 
-    </article>
+    </div>
 
-    <footer>
-
-    </footer>
-
+    <div>
+        <Footer/>
+    </div>
+    <TopButton/>
 
 </template>
 
 <style scoped>
-
-@import url('../src/assets/reset.css');
-
+@import url('@/assets/reset.css');
 </style>

@@ -10,9 +10,8 @@ function scrollToSection(sectionId) {
 <template>
 
 <div class="HD_navBar">
-    <div class="HD_navItem" @click="scrollToSection('home')">Home</div>
-    <div class="HD_navItem" @click="scrollToSection('aboutme')">About Me</div>
-    <div class="HD_navItem" @click="scrollToSection('techskills')">Tech Skills</div>
+    <div class="HD_navItem" @click="scrollToSection('aboutme')">AboutMe</div>
+    <div class="HD_navItem" @click="scrollToSection('techskills')">TechSkills</div>
     <div class="HD_navItem" @click="scrollToSection('portfolio')">Portfolio</div>
     <div class="HD_navItem" @click="scrollToSection('contact')">Contact</div>
   </div>
@@ -20,7 +19,7 @@ function scrollToSection(sectionId) {
 </template>
 
 <style scoped>
-@import url('../../../../assets/reset.css');
-@import url('../../../../assets/font.css');
-@import url('../../../../assets/header.css');
+@import url('@/assets/reset.css');
+@import url('@/assets/font.css');
+@import url('@/assets/header.css');
 </style>
