@@ -15,7 +15,5 @@ import Link from '@/components/app/footer/footer_stuff/link.vue'
 </template>
 
 <style scoped>
-@import url('@/assets/reset.css');
-@import url('@/assets/font.css');
 @import url('@/assets/footer.css');
 </style>

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
@@ -16,7 +16,7 @@
 
 }
 .FT_title {
-    font-size: 26px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 .FT_link {

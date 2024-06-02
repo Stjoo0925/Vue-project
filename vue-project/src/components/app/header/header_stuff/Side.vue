@@ -18,7 +18,5 @@ const props = defineProps({
 </template>
 
 <style scoped>
-@import url('@/assets/reset.css');
-@import url('@/assets/font.css');
 @import url('@/assets/header.css');
 </style>

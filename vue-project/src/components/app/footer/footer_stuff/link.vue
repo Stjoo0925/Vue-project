@@ -23,7 +23,5 @@
 </template>
 
 <style scoped>
-@import url('@/assets/reset.css');
-@import url('@/assets/font.css');
 @import url('@/assets/footer.css');
 </style>

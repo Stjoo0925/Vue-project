@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import SideBar from '@/components/app/header/header_stuff/menuSide.vue';
+import SideBar from '@/components/app/header/header_stuff/Side.vue';
 
 const currentImage = ref('/menu.svg');
 const isSidebarVisible = ref(false);
@@ -23,7 +23,5 @@ function toggleSidebar() {
 </template>
 
 <style scoped>
-@import url('@/assets/reset.css');
-@import url('@/assets/font.css');
 @import url('@/assets/header.css');
 </style>

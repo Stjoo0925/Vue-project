@@ -14,16 +14,13 @@ const scrollToTop = () => {
 </template>
 
 <style scoped>
-@import url('@/assets/reset.css');
-
 .top-button {
     position: fixed;
-    bottom: 30dvh;
+    bottom: 15dvh;
     right: 20px;
     z-index: 999;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
     background-image: url('/stat.svg');
     background-size: cover;
     border: none;

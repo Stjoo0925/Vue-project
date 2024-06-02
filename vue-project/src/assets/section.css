@@ -1,0 +1,26 @@
+.title {
+  font-size: 30px;
+  color: #999;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.section_container {
+  padding: 20px;
+  min-height: calc(100vh - 200px);
+  overflow-y: auto;
+  background: none;
+  /* background-image: url("/BG01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; */
+}
+
+.section_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

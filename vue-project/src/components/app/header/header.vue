@@ -1,7 +1,9 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
-import NavBar from '@/components/app/header/header_stuff/navClick.vue';
+import NavBar from '@/components/app/header/header_stuff/navBar.vue';
 import MenuButton from '@/components/app/header/header_stuff/menu.vue';
+import Title from '@/components/app/typing.vue';
+import 'animate.css';
 
 const isMenuVisible = ref(false);
 const isNavbarVisible = ref(true);
@@ -27,8 +29,9 @@ function updateVisibility() {
 
 <template>
   <div class="HD_container">
-    <div @click="scrollToTop" class="HD_homeImg">
+    <div @click="scrollToTop" class="HD_homeImg animate__animated animate__jello">
       <img src="/flash-outline.svg" alt="No image">
+      <Title/>
     </div>
     <NavBar v-if="isNavbarVisible"/>
     <div class="menu-button-container">
@@ -38,8 +41,6 @@ function updateVisibility() {
 </template>
 
 <style scoped>
-@import url('@/assets/reset.css');
-@import url('@/assets/font.css');
 @import url('@/assets/header.css');
 
 .menu-button-container {

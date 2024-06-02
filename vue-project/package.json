@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "vue": "^3.4.21"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
+    "reset-css": "^5.0.2",
     "vite": "^5.2.8"
   }
 }
