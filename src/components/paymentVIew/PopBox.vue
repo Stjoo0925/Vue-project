@@ -16,7 +16,11 @@
 </template>
 
 <script setup>
-import { useMenuStore, usePopupStore,useOrderCount } from "@/stores/menuStore.js";
+import {
+  useMenuStore,
+  usePopupStore,
+  useOrderCount,
+} from "@/stores/menuStore.js";
 import { useRouter } from "vue-router";
 import swal from "sweetalert2";
 
@@ -38,7 +42,7 @@ const paymentWait = () => {
       menuStore.clearSelectedItems();
       popupStore.togglePopUp1();
       popupStore.togglePopUp2();
-      router.push("/mainpage");
+      router.push("/");
     });
 };
 
