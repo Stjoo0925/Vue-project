@@ -11,4 +11,7 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
+  build: {
+    outDir: "docs", // 빌드된 파일을 저장할 폴더를 docs로 설정
+  },
 });
