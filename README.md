@@ -39,7 +39,7 @@ Js_Eagles와 함께라면 미래는 더욱 밝고, 무한한 가능성이 열립
 
 </br>
 
-👉 [이전리포지토리](https://github.com/wooseungyeop/js_eaglesS2)
+👉 [이전리포지토리](https://github.com/wooseungyeop/vue_eaglesS2)
 
 </br>
 
