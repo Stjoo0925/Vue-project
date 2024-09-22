@@ -1,6 +1,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,vue,node,windows,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,vue,node,windows,macos
 
+package-lock.json
+
 ### macOS ###
 # General
 .DS_Store
