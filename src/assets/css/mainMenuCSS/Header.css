@@ -1,0 +1,118 @@
+.HD {
+  height: 10%;
+}
+
+.Hd_Top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.Hd_Top_Front {
+  display: flex;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.Hd_Top_Front > div {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.Front_Eat,
+.Front_Packaging {
+  border-radius: 30px;
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Front_Eat {
+  background-color: #fff;
+  color: #0f1822;
+  position: relative;
+  font-size: 14px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.Front_Eat:active {
+  transform: translate(1px, 1px);
+}
+
+.Front_Packaging {
+  background-color: #fff;
+  color: #0f1822;
+  position: relative;
+  font-size: 14px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.Front_Packaging:active {
+  transform: translate(1px, 1px);
+}
+
+.Hd_Top_Back {
+  display: flex;
+  margin-right: 20px;
+  padding: 5px;
+  align-items: center;
+  height: 20px;
+  font-size: 14px;
+}
+
+.Hd_Top_Back > div {
+  border-right: 1px solid #999;
+  margin-right: 10px;
+  color: #999;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.Hd_Top_Back > a {
+  border-right: 1px solid #999;
+  margin-right: 10px;
+  color: #999;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+.Hd_Nav {
+  display: flex;
+  margin: 5px;
+}
+
+.activeOption {
+  background-color: #0f1822;
+  color: #fff;
+}
+
+.Hd_Nav .router-link-exact-active {
+  background-color: #ea0029;
+  color: white;
+}
+
+.Hd_Nav a {
+  display: flex;
+  width: 20%;
+  height: 40px;
+  border: 1px solid #999;
+  background-color: #999;
+  color: #fff;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.Hd_Nav a:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.22);
+}
+
+.Hd_Nav a:active {
+  transform: translate(1px, 1px);
+}

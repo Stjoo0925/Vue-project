@@ -1,0 +1,351 @@
+@font-face {
+  font-family: "SUIT-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.popup-list {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.imgRedLine {
+  /* width: 130px;
+    height: 60px; */
+  width: 130px;
+  height: 60px;
+  margin-left: 5%;
+}
+
+.popup-container {
+  width: 40%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: white;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.popup-header p {
+  width: 100%;
+  font-size: 2em;
+  font-weight: bolder;
+  padding: 2% 0 2%;
+}
+
+.popup-content {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.order-table {
+  height: 370px;
+  background-color: #e2e2e2;
+  border-radius: 20px 20px 10px 10px;
+  overflow: hidden;
+}
+
+.list {
+  width: 100%;
+}
+
+.meue-list {
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+}
+
+.imgs-box {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.imgs-box-title {
+  margin-left: 20px;
+}
+
+.additional-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.additional-items_sub {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  content: "";
+  border-top: 5px solid #ea0029;
+  border-right: 5px solid #ea0029;
+  transform: rotate(225deg);
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.item-thumbails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px #999;
+  margin-top: 20px;
+  height: 150px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory; /* x축으로 스냅 적용, 스냅이 강제됨 */
+}
+
+.thumbnail {
+  width: 150px;
+  height: 100px;
+  margin: 5px;
+}
+.thumbnail_price {
+  width: 150px;
+  height: 100%;
+  text-align: center;
+}
+
+.additional-items_sub2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  content: "";
+  border-top: 5px solid #ea0029;
+  border-right: 5px solid #ea0029;
+  transform: rotate(405deg);
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.popup-buttons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 10px;
+  justify-content: space-around;
+}
+
+.previous-button {
+  width: 150px;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.next-button {
+  width: 150px;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.previous-button p {
+  display: flex;
+  align-content: center;
+}
+
+.previous-button:hover {
+  background-color: #ea0029;
+}
+
+.previous-button:hover a {
+  color: white;
+}
+
+.next-button:hover {
+  background-color: #ea0029;
+}
+
+.next-button:hover a {
+  color: white;
+}
+
+.popup-overlay {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.popup-inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.final-amount {
+  width: 30%;
+  height: 300px;
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.final-amount_sub {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.final-amount_sub p {
+  margin-left: -25px;
+}
+
+.final-amount_sub div {
+  color: #ea0029;
+  margin-left: 30px;
+}
+
+.payment-options {
+  padding: 10px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 30px;
+}
+
+.payment-options p {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.dine-options {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0 0 0;
+  width: 100%;
+}
+
+.dine-in {
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.take-out {
+  margin: 0 0 0 60px;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.activeOption {
+  background-color: #0f1822;
+  color: #fff;
+}
+
+.popup-buttons02 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0 0 0;
+}
+
+.previous-button02 {
+  width: 150px;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.next-button02 {
+  width: 150px;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.previous-button02:hover {
+  background-color: #ea0029;
+  color: white;
+}
+
+.next-button02:hover {
+  background-color: #ea0029;
+  color: white;
+}
+.next-button02:hover a {
+  color: white;
+}
+
+.con_col_card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.con_col_card img {
+  flex: 0 0 auto; /* flex-grow: 0, flex-shrink: 0, flex-basis: auto */
+  width: 150px; /* 각 카드의 너비 */
+  scroll-snap-align: start; /* 스크롤 시 이 요소의 시작 부분이 스냅 위치에 맞춰짐 */
+}
+
+.cardName {
+  font-family: "SUIT-Regular";
+  font-weight: bold;
+  width: 100%;
+  font-size: 14px;
+}
+
+.cardPrice {
+  font-family: "SUIT-Regular";
+  width: 100%;
+  font-size: 14px;
+}
+
+.imgs-thumbnail {
+  width: 100%;
+  height: 100%;
+  height: auto;
+  border-radius: 5px;
+}

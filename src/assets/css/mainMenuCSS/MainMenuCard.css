@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "SUIT-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Sc_Section_con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Section_Menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Section_Menu_con {
+  overflow-y: scroll;
+  width: 100%;
+}
+.Section_Menu_con::-webkit-scrollbar {
+  width: 8px;
+}
+.Section_Menu_con::-webkit-scrollbar-thumb {
+  background-color: #ea0029;
+  border-radius: 10px;
+}
+.Section_Menu_con::-webkit-scrollbar-track {
+  background-color: #999;
+  border-radius: 10px;
+}
+
+.Menu_con_row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  scroll-snap-align: start;
+}
+
+.con_row_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 3 - 10px);
+  height: 200px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.con_row_card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.con_row_card:active {
+  transform: translate(1px, 1px);
+  box-shadow: none;
+}
+
+.con_row_card > img {
+  width: 95%;
+  height: auto;
+}
+
+.con_row_card > p {
+  text-align: center;
+}
+
+.cardName {
+  font-family: "SUIT-Regular";
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 700;
+}
+
+.cardPrice {
+  font-family: "SUIT-Regular";
+  font-size: 12px;
+  line-height: 140%;
+  font-weight: 700;
+}
+
+.last-row {
+  justify-content: flex-start;
+  /* 마지막 행 카드를 왼쪽으로 정렬 */
+}

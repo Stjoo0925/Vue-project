@@ -1,0 +1,312 @@
+
+.EasyPayment_box {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.EasyPayment_box_card {
+    width: 170px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 218, 218);
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.EasyPayment_box_card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+ 
+.EasyPayment_box_card>img {
+    width: 40%;
+    height: auto;
+    min-height: 65px;
+    cursor: pointer;
+}
+
+.EasyPayment_box_card>p {
+    cursor: pointer;
+
+}
+
+
+.EasyPayment_box1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.EasyPayment_box_card1 {
+    width: 170px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 218, 218);
+    border-radius: 20px;    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.EasyPayment_box_card1:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+.EasyPayment_box_card1>img {
+    width: 40%;
+    height: auto;
+    min-height: 50px;
+    cursor: pointer;
+}
+
+.EasyPayment_box_card1>p {
+    cursor: pointer;
+}
+
+.EasyPayment_box2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.EasyPayment_box_card2 {
+    width: 170px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 218, 218);
+    border-radius: 20px;    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.EasyPayment_box_card2:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+.EasyPayment_box_card2>img {
+    width: 40%;
+    height: auto;
+    min-height: 50px;
+    cursor: pointer;
+}
+
+.EasyPayment_box_card2>p {
+
+    cursor: pointer;
+}
+
+
+
+
+
+.goodPayment_box {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.goodPayment_box_card {
+    width: calc(100%/2.5);
+    height: 180px;
+    background-color: #ea0029;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
+    transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.goodPayment_box_card:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.22);
+  }
+  
+  .goodPayment_box_card:active {
+    transform: translate(1px, 1px);
+  }
+  
+
+.goodPayment_box_card_Creditcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.goodPayment_box_card_Creditcard_in {
+    height: auto;
+    max-width: 30%;
+}
+
+.goodPayment_box_card_Creditcard_img {
+    width: 70%
+}
+
+.goodPayment_box_card_Creditcard_p {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+.goodPayment_box_kfccard {
+    width: calc(100%/2.5);
+    height: 180px;
+    background-color: #ea0029;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
+    transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.goodPayment_box_kfccard:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.22);
+  }
+  
+  .goodPayment_box_kfccard:active {
+    transform: translate(1px, 1px);
+  }
+
+.goodPayment_box_kfccard_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.goodPayment_box_kfccard_card_in {
+    height: auto;
+    max-width: 30%;
+}
+
+.goodPayment_box_kfccard_card_img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.goodPayment_box_card1_Creditcard_p {
+    color: white;
+    font-size: 30px;
+}
+
+
+.payment_footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.payment_footer_box {
+    width: 180px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
+    transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.goodPayment_box_card:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.22);
+  }
+  
+  .goodPayment_box_card:active {
+    transform: translate(1px, 1px);
+  }
+
+.payment_footer_box_p {
+    font-size: 20px;
+    font-weight: 50;
+    text-align: center
+}
+
+.payment_footer_box:hover {
+    background-color: #ea0029;
+   
+}
+.payment_footer_box:hover a{
+    color: white;
+}
+.popBox{
+    justify-content: center;
+    position: absolute;
+    width: 100% ;
+    height: 100vh;
+    top: 0; left: 0;
+    background-color: rgba(0, 0, 0, 0.700);
+    display: none;
+}
+.popInfo{
+    background-color: white;
+    width: 500px ;
+    height: 500px ;
+    border-radius: 10px;
+}
+.popInfo-p{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+}
+.popBox_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cardPayBox{
+    text-align: center;
+    height: 150px;
+    border-top : 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 60px;
+}
+
+.payment{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.paymentBox{
+    width: 150px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.paymentBox:hover {
+    background-color: #ea0029;
+    color: white;
+}
+
+.EasyPayment_box_card3 {
+    width: 170px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 218, 218);
+    border-radius: 20px;    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}

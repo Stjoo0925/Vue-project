@@ -1,0 +1,344 @@
+@font-face {
+  font-family: "SUIT-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.FT {
+  height: 40%;
+  width: 793px;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.Footer-Container {
+  height: 100%;
+  border: 2px solid #888;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.Footer_Top {
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.Footer_Top_left {
+  display: flex;
+  align-items: center;
+  flex: 3.5;
+  margin-left: 10px;
+}
+
+.Footer_Top_left div {
+  font-family: "SUIT-Regular";
+  font-weight: 700;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.orderCount {
+  display: flex;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  color: #ea0029;
+}
+
+.orderCount-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.shoppingBag {
+  width: 20px;
+  height: 20px;
+}
+
+.Footer_Top_Right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 2;
+}
+.Footer_Top_Right div {
+  font-family: "SUIT-Regular";
+  font-weight: 700;
+}
+
+.Footer_Info_Box {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.Footer_Info_Box::-webkit-scrollbar {
+  display: none;
+}
+
+.Footer_Info_Box table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.Footer_Info_Box th,
+.Footer_Info_Box td {
+  padding: 8px;
+}
+
+.Footer_Info_Box th {
+  background-color: #ea0029;
+  color: #fff;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.col-menu {
+  width: 60%;
+}
+
+.col-quantity {
+  width: 20%;
+  text-align: center;
+}
+
+.quantity-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.quantity-con div {
+  font-family: "SUIT-Regular";
+  font-weight: 700;
+}
+
+.quantityMinus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  background-color: #ea0029;
+  color: #fff;
+  border-color: #0f1822;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 2px 2px 1px #666;
+  transition-duration: 0.1s;
+}
+.quantityMinus:active {
+  transform: translate(1px, 1px);
+  box-shadow: none;
+}
+
+.quantityPlus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  background-color: #ea0029;
+  color: #fff;
+  border-color: #0f1822;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 2px 2px 1px #666;
+  transition-duration: 0.1s;
+}
+.quantityPlus:active {
+  transform: translate(1px, 1px);
+  box-shadow: none;
+}
+
+.price-Del {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  background-color: #0f1822;
+  color: #fff;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 2px 2px 1px #666;
+  transition-duration: 0.1s;
+}
+.price-Del:active {
+  transform: translate(1px, 1px);
+  box-shadow: none;
+}
+
+.col-price {
+  width: 20%;
+  text-align: center;
+}
+
+.price-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+.price-con div {
+  font-family: "SUIT-Regular";
+  font-weight: 700;
+}
+
+.price-con-price {
+  flex: 8;
+  height: 100%;
+}
+
+.Footer_Under {
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0, 0, 20px, 20px;
+}
+
+.PlusButton {
+  width: 8%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin: 5px;
+  background-color: #888;
+  color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.PlusButton:active {
+  transform: translate(1px, 1px);
+}
+
+.PlusButton a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.CouponButton {
+  width: 36%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f1822;
+  border-radius: 30px;
+  color: #fff;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.CouponButton:active {
+  transform: translate(1px, 1px);
+}
+
+.DelButton {
+  width: 20%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.DelButton:active {
+  transform: translate(1px, 1px);
+}
+
+.OrderButton {
+  width: 36%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #ea0029;
+  margin: 5px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.OrderButton:active {
+  transform: translate(1px, 1px);
+}
+
+.menu-title {
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.menu-name {
+  font-family: "SUIT-Regular";
+  font-weight: 700;
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.menu-con {
+  font-weight: 700;
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.menu-option {
+  font-family: "SUIT-Regular";
+  font-weight: 700;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-animation {
+  animation: pulse 0.5s ease-in-out;
+}
+
+.greyButton {
+  color: #fff; /* 회색 버튼의 텍스트 색상 */
+  background-color: #999; /* 회색 버튼의 배경 색상 */
+}
+.defaultButton {
+  color: #fff; /* 기본 버튼의 텍스트 색상 */
+  background-color: #ea0029; /* 기본 버튼의 배경 색상 */
+}
+.quantityMinus:disabled {
+  color: #fff; /* 비활성화된 버튼의 텍스트 색상 */
+  background-color: #999; /* 비활성화된 버튼의 배경 색상 */
+}

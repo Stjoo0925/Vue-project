@@ -1,0 +1,107 @@
+.flicker a {
+    cursor: pointer;
+    font-size: 150px;
+    color: #fff;
+    text-shadow:
+        0 0 7px rgb(255, 248, 252),
+        0 0 10px rgb(255, 248, 252),
+        0 0 21px rgb(255, 248, 252),
+        0 0 42px rgba(255, 143, 23, 0.885),
+        0 0 82px rgba(255, 143, 23, 0.885),
+        0 0 92px rgba(255, 143, 23, 0.885),
+        0 0 102px rgba(255, 143, 23, 0.885),
+        0 0 151px rgba(255, 143, 23, 0.885);
+    animation: flicker 1.5s infinite alternate;
+}
+
+@keyframes flicker {
+
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+
+        text-shadow:
+            0 0 4px rgba(255, 242, 0, 0.885),
+            0 0 11px rgba(255, 143, 23, 0.885),
+            0 0 18px rgba(232, 255, 23, 0.885),
+            0 0 40px rgba(255, 143, 23, 0.885),
+            0 0 80px rgba(255, 0, 0, 0.885),
+            0 0 90px rgba(255, 143, 23, 0.885),
+            0 0 100px rgba(255, 236, 23, 0.885),
+            0 0 150px rgba(232, 255, 23, 0.885);
+
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+
+
+
+.fade-out {
+    animation: fadeOut 5s forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#btnfadeIn {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#btnfadeIn div iframe {
+    width: 100vw;
+    height: 100vh;
+}
+
+#video html body video {
+    width: 100vw;
+}
+
+.skip_Box {
+    position: absolute;
+    bottom: 100px;
+    right: 350px;
+    cursor: pointer;
+}
+
+.skip_Box p {
+    color: white;
+    cursor: pointer;
+}
+
+.back_Box_All {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.back_Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/img/brand_1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

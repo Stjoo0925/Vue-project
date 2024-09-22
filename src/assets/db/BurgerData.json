@@ -1,0 +1,581 @@
+{
+  "recommended": [
+    {
+      "id": "45",
+      "name": "닭껍질튀김",
+      "option": "",
+      "price": 1900,
+      "img": "/KFC_Menu/side/sd_01.png"
+    },
+    {
+      "id": "27",
+      "name": "불닭칠리모짜슈퍼박스",
+      "option": "칠리모짜징거통다리, 프렌치프라이, 스프라이트, 핫크리스피통다리, 에그타르트, 불닭소스",
+      "price": 13200,
+      "img": "/KFC_Menu/set/set_14.png"
+    },
+    {
+      "id": "28",
+      "name": "불닭칠리슈퍼박스",
+      "option": "칠리징거통다리, 프렌치프라이, 스프라이트, 핫크리스피통다리, 에그타르트, 불닭소스",
+      "price": 11200,
+      "img": "/KFC_Menu/set/set_15.png"
+    },
+    {
+      "id": "24",
+      "name": "커널박스",
+      "option": "커널버거, 프렌치프라이, 콜라, 핫크리스피통다리",
+      "price": 8900,
+      "img": "/KFC_Menu/set/set_11.png"
+    },
+    {
+      "id": "26",
+      "name": "커널세트",
+      "option": "커널버거, 프렌치프라이, 콜라",
+      "price": 6700,
+      "img": "/KFC_Menu/set/set_13.png"
+    },
+    {
+      "id": "25",
+      "name": "커널데리야끼세트",
+      "option": "커널데리야끼버거, 프렌치프라이, 콜라",
+      "price": 7000,
+      "img": "/KFC_Menu/set/set_12.png"
+    },
+    {
+      "id": "22",
+      "name": "징거세트",
+      "option": "징거, 프렌치프라이, 콜라",
+      "price": 8300,
+      "img": "/KFC_Menu/set/set_09.png"
+    },
+    {
+      "id": "17",
+      "name": "징거더블다운세트",
+      "option": "징거더블다운맥스, 프렌치프라이, 콜라",
+      "price": 10300,
+      "img": "/KFC_Menu/set/set_04.png"
+    },
+    {
+      "id": "16",
+      "name": "블랙라벨폴인치즈세트",
+      "option": "블랙라벨폴인치즈, 프렌치프라이, 콜라",
+      "price": 10500,
+      "img": "/KFC_Menu/set/set_03.png"
+    },
+    {
+      "id": "42",
+      "name": "커널버거",
+      "option": "",
+      "price": 4200,
+      "img": "/KFC_Menu/burger/bg_11.png"
+    },
+    {
+      "id": "34",
+      "name": "블랙라벨폴인치즈",
+      "option": "",
+      "price": 8800,
+      "img": "/KFC_Menu/burger/bg_03.png"
+    },
+    {
+      "id": "50",
+      "name": "버터비스켓",
+      "option": "",
+      "price": 2600,
+      "img": "/KFC_Menu/side/sd_06.png"
+    },
+    {
+      "id": "49",
+      "name": "너겟 6조각",
+      "option": "",
+      "price": 3300,
+      "img": "/KFC_Menu/side/sd_05.png"
+    }
+  ],
+  "setMenu": [
+    {
+      "id": "14",
+      "name": "칠리모짜징거통다리세트",
+      "option": "칠리모짜징거통다리, 프렌치프라이, 콜라",
+      "price": 11400,
+      "img": "/KFC_Menu/set/set_01.png"
+    },
+    {
+      "id": "15",
+      "name": "칠리징거통다리세트",
+      "option": "칠리징거통다리, 프렌치프라이, 콜라",
+      "price": 9400,
+      "img": "/KFC_Menu/set/set_02.png"
+    },
+    {
+      "id": "16",
+      "name": "블랙라벨폴인치즈세트",
+      "option": "블랙라벨폴인치즈, 프렌치프라이, 콜라",
+      "price": 10500,
+      "img": "/KFC_Menu/set/set_03.png"
+    },
+    {
+      "id": "17",
+      "name": "징거더블다운세트",
+      "option": "징거더블다운맥스, 프렌치프라이, 콜라",
+      "price": 10300,
+      "img": "/KFC_Menu/set/set_04.png"
+    },
+    {
+      "id": "18",
+      "name": "켄터키통다리스파이시세트",
+      "option": "켄터키통다리스파이시, 프렌치프라이, 콜라",
+      "price": 8800,
+      "img": "/KFC_Menu/set/set_05.png"
+    },
+    {
+      "id": "19",
+      "name": "징거BLT세트",
+      "option": "징거BLT, 프렌치프라이, 콜라",
+      "price": 9500,
+      "img": "/KFC_Menu/set/set_06.png"
+    },
+    {
+      "id": "20",
+      "name": "징거타워세트",
+      "option": "징거타워, 프렌치프라이, 콜라",
+      "price": 9100,
+      "img": "/KFC_Menu/set/set_07.png"
+    },
+    {
+      "id": "21",
+      "name": "클래식징거통다리세트",
+      "option": "클래식징거통다리, 프렌치프라이, 콜라",
+      "price": 8800,
+      "img": "/KFC_Menu/set/set_08.png"
+    },
+    {
+      "id": "22",
+      "name": "징거세트",
+      "option": "징거, 프렌치프라이, 콜라",
+      "price": 8300,
+      "img": "/KFC_Menu/set/set_09.png"
+    },
+    {
+      "id": "23",
+      "name": "불고기세트",
+      "option": "불고기, 프렌치프라이, 콜라",
+      "price": 7100,
+      "img": "/KFC_Menu/set/set_10.png"
+    },
+    {
+      "id": "24",
+      "name": "커널박스",
+      "option": "커널버거, 프렌치프라이, 콜라, 핫크리스피통다리",
+      "price": 8900,
+      "img": "/KFC_Menu/set/set_11.png"
+    },
+    {
+      "id": "25",
+      "name": "커널데리야끼세트",
+      "option": "커널데리야끼버거, 프렌치프라이, 콜라",
+      "price": 7000,
+      "img": "/KFC_Menu/set/set_12.png"
+    },
+    {
+      "id": "26",
+      "name": "커널세트",
+      "option": "커널버거, 프렌치프라이, 콜라",
+      "price": 6700,
+      "img": "/KFC_Menu/set/set_13.png"
+    },
+    {
+      "id": "27",
+      "name": "불닭칠리모짜슈퍼박스",
+      "option": "칠리모짜징거통다리, 프렌치프라이, 스프라이트, 핫크리스피통다리, 에그타르트, 불닭소스",
+      "price": 13200,
+      "img": "/KFC_Menu/set/set_14.png"
+    },
+    {
+      "id": "28",
+      "name": "불닭칠리슈퍼박스",
+      "option": "칠리징거통다리, 프렌치프라이, 스프라이트, 핫크리스피통다리, 에그타르트, 불닭소스",
+      "price": 11200,
+      "img": "/KFC_Menu/set/set_15.png"
+    },
+    {
+      "id": "29",
+      "name": "블랙라벨폴인치즈박스",
+      "option": "블랙라벨폴인치즈, 핫크리스피통다리, 프렌치프라이, 콜라",
+      "price": 12700,
+      "img": "/KFC_Menu/set/set_16.png"
+    },
+    {
+      "id": "30",
+      "name": "징거더블다운박스",
+      "option": "징거더블다운맥스, 핫크리스피통다리, 프렌치프라이, 콜라",
+      "price": 12500,
+      "img": "/KFC_Menu/set/set_17.png"
+    },
+    {
+      "id": "31",
+      "name": "켄터키통다리스파이시박스",
+      "option": "켄터키통다리스파이시, 핫크리스피통다리, 프렌치프라이, 콜라",
+      "price": 12000,
+      "img": "/KFC_Menu/set/set_18.png"
+    }
+  ],
+  "burgerMenu": [
+    {
+      "id": "32",
+      "name": "칠리모짜통다리",
+      "option": "",
+      "price": 8900,
+      "img": "/KFC_Menu/burger/bg_01.png"
+    },
+    {
+      "id": "33",
+      "name": "칠리징거통다리",
+      "option": "",
+      "price": 6900,
+      "img": "/KFC_Menu/burger/bg_02.png"
+    },
+    {
+      "id": "34",
+      "name": "블랙라벨폴인치즈",
+      "option": "",
+      "price": 8800,
+      "img": "/KFC_Menu/burger/bg_03.png"
+    },
+    {
+      "id": "35",
+      "name": "징거더블다운",
+      "option": "",
+      "price": 7800,
+      "img": "/KFC_Menu/burger/bg_04.png"
+    },
+    {
+      "id": "36",
+      "name": "켄터키통다리스파이시",
+      "option": "",
+      "price": 7300,
+      "img": "/KFC_Menu/burger/bg_05.png"
+    },
+    {
+      "id": "37",
+      "name": "징거BLT",
+      "option": "",
+      "price": 7000,
+      "img": "/KFC_Menu/burger/bg_06.png"
+    },
+    {
+      "id": "38",
+      "name": "징거타워",
+      "option": "",
+      "price": 6600,
+      "img": "/KFC_Menu/burger/bg_07.png"
+    },
+    {
+      "id": "39",
+      "name": "클래식징거통다리",
+      "option": "",
+      "price": 6300,
+      "img": "/KFC_Menu/burger/bg_08.png"
+    },
+    {
+      "id": "40",
+      "name": "징거",
+      "option": "",
+      "price": 5800,
+      "img": "/KFC_Menu/burger/bg_09.png"
+    },
+    {
+      "id": "41",
+      "name": "불고기",
+      "option": "",
+      "price": 4600,
+      "img": "/KFC_Menu/burger/bg_10.png"
+    },
+    {
+      "id": "42",
+      "name": "커널버거",
+      "option": "",
+      "price": 4200,
+      "img": "/KFC_Menu/burger/bg_11.png"
+    },
+    {
+      "id": "43",
+      "name": "커널데리야끼버거",
+      "option": "",
+      "price": 4500,
+      "img": "/KFC_Menu/burger/bg_12.png"
+    },
+    {
+      "id": "44",
+      "name": "트위스터",
+      "option": "",
+      "price": 4600,
+      "img": "/KFC_Menu/burger/bg_13.png"
+    }
+  ],
+  "sideMenu": [
+    {
+      "id": "45",
+      "name": "닭껍질튀김",
+      "option": "",
+      "price": 1900,
+      "img": "/KFC_Menu/side/sd_01.png"
+    },
+    {
+      "id": "46",
+      "name": "프렌치프라이",
+      "option": "",
+      "price": 3000,
+      "img": "/KFC_Menu/side/sd_02.png"
+    },
+    {
+      "id": "47",
+      "name": "텐더 2조각",
+      "option": "",
+      "price": 3100,
+      "img": "/KFC_Menu/side/sd_03.png"
+    },
+    {
+      "id": "48",
+      "name": "너겟 4조각",
+      "option": "",
+      "price": 2300,
+      "img": "/KFC_Menu/side/sd_04.png"
+    },
+    {
+      "id": "49",
+      "name": "너겟 6조각",
+      "option": "",
+      "price": 3300,
+      "img": "/KFC_Menu/side/sd_05.png"
+    },
+    {
+      "id": "50",
+      "name": "버터비스켓",
+      "option": "",
+      "price": 2600,
+      "img": "/KFC_Menu/side/sd_06.png"
+    },
+    {
+      "id": "51",
+      "name": "에그타르트",
+      "option": "",
+      "price": 2300,
+      "img": "/KFC_Menu/side/sd_07.png"
+    },
+    {
+      "id": "52",
+      "name": "롱치즈스틱",
+      "option": "",
+      "price": 2100,
+      "img": "/KFC_Menu/side/sd_08.png"
+    },
+    {
+      "id": "53",
+      "name": "코울슬로",
+      "option": "",
+      "price": 2100,
+      "img": "/KFC_Menu/side/sd_09.png"
+    },
+    {
+      "id": "54",
+      "name": "콘샐러드",
+      "option": "",
+      "price": 2100,
+      "img": "/KFC_Menu/side/sd_10.png"
+    }
+  ],
+  "beverageMenu": [
+    {
+      "id": "55",
+      "name": "콜라",
+      "option": "",
+      "price": 2600,
+      "img": "/KFC_Menu/beverage/bv_01.png"
+    },
+    {
+      "id": "56",
+      "name": "제로콜라",
+      "option": "",
+      "price": 2600,
+      "img": "/KFC_Menu/beverage/bv_02.png"
+    },
+    {
+      "id": "57",
+      "name": "스프라이트",
+      "option": "",
+      "price": 2600,
+      "img": "/KFC_Menu/beverage/bv_03.png"
+    },
+    {
+      "id": "58",
+      "name": "스프라이트제로",
+      "option": "",
+      "price": 2600,
+      "img": "/KFC_Menu/beverage/bv_04.png"
+    },
+    {
+      "id": "59",
+      "name": "환타오렌지",
+      "option": "",
+      "price": 2600,
+      "img": "/KFC_Menu/beverage/bv_05.png"
+    },
+    {
+      "id": "60",
+      "name": "오렌지주스",
+      "option": "",
+      "price": 2100,
+      "img": "/KFC_Menu/beverage/bv_06.png"
+    },
+    {
+      "id": "61",
+      "name": "아이스아메리카노",
+      "option": "",
+      "price": 2400,
+      "img": "/KFC_Menu/beverage/bv_07.png"
+    },
+    {
+      "id": "62",
+      "name": "생수",
+      "option": "",
+      "price": 1000,
+      "img": "/KFC_Menu/beverage/bv_08.png"
+    }
+  ],
+  "OrderList": [
+    {
+      "id": "d9f3",
+      "orderCount": 1,
+      "items": [
+        {
+          "id": "25",
+          "name": "커널데리야끼세트",
+          "quantity": 1,
+          "price": 7000,
+          "total": 7000
+        },
+        {
+          "id": "26",
+          "name": "커널세트",
+          "quantity": 1,
+          "price": 6700,
+          "total": 6700
+        }
+      ],
+      "total": 13700,
+      "orderOption": "packaging"
+    },
+    {
+      "id": "bf68",
+      "orderCount": 2,
+      "items": [
+        {
+          "id": "27",
+          "name": "불닭칠리모짜슈퍼박스",
+          "quantity": 1,
+          "price": 13200,
+          "total": 13200
+        },
+        {
+          "id": "26",
+          "name": "커널세트",
+          "quantity": 1,
+          "price": 6700,
+          "total": 6700
+        }
+      ],
+      "total": 19900,
+      "orderOption": "packaging"
+    },
+    {
+      "id": "7ee9",
+      "orderCount": 1,
+      "items": [
+        {
+          "id": "25",
+          "name": "커널데리야끼세트",
+          "quantity": 1,
+          "price": 7000,
+          "total": 7000
+        }
+      ],
+      "total": 7000,
+      "orderOption": "packaging"
+    },
+    {
+      "id": "ac39",
+      "orderCount": 1,
+      "items": [
+        {
+          "id": "45",
+          "name": "닭껍질튀김",
+          "quantity": 1,
+          "price": 1900,
+          "total": 1900
+        },
+        {
+          "id": "27",
+          "name": "불닭칠리모짜슈퍼박스",
+          "quantity": 1,
+          "price": 13200,
+          "total": 13200
+        },
+        {
+          "id": "26",
+          "name": "커널세트",
+          "quantity": 1,
+          "price": 6700,
+          "total": 6700
+        }
+      ],
+      "total": 21800,
+      "orderOption": "packaging"
+    },
+    {
+      "id": "5e34",
+      "orderCount": 2,
+      "items": [
+        {
+          "id": "45",
+          "name": "닭껍질튀김",
+          "quantity": 1,
+          "price": 1900,
+          "total": 1900
+        }
+      ],
+      "total": 1900,
+      "orderOption": "packaging"
+    },
+    {
+      "id": "f588",
+      "orderCount": 2,
+      "items": [
+        {
+          "id": "25",
+          "name": "커널데리야끼세트",
+          "quantity": 1,
+          "price": 7000,
+          "total": 7000
+        }
+      ],
+      "total": 7000,
+      "orderOption": "packaging"
+    },
+    {
+      "id": "d4db",
+      "orderCount": 1,
+      "items": [
+        {
+          "id": "28",
+          "name": "불닭칠리슈퍼박스",
+          "quantity": 1,
+          "price": 11200,
+          "total": 11200
+        }
+      ],
+      "total": 11200,
+      "orderOption": "packaging"
+    }
+  ]
+}
